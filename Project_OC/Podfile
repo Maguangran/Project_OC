@@ -1,0 +1,22 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '10.0'
+use_frameworks!
+target 'Project_OC' do
+
+pod 'JSONModel'
+pod 'ReactiveCocoa', :git => 'https://github.com/zhao0/ReactiveCocoa.git', :tag => '2.5.2'
+pod 'AFNetworking'
+pod 'MJRefresh'
+pod 'SDAutoLayout', '~> 2.2.0'
+pod 'SDCycleScrollView','1.80'
+pod 'DZNEmptyDataSet'
+pod 'Reachability', '~> 3.2'
+pod 'BlocksKit'
+pod 'MBProgressHUD'
+pod 'Masonry'
+pod 'IQKeyboardManager'
+
+
+pod 'SDWebImage'
+
+end
